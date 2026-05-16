@@ -1,15 +1,16 @@
 from cs50 import SQL
 
-# connect to database
 db = SQL("sqlite:///dont-panic.db")
 
-# change admin password
+password = input("New admin password: ")
+
 db.execute(
     """
     UPDATE users
-    SET password = 'hacked!'
+    SET password = ?
     WHERE username = 'admin';
-    """
+    """,
+    password
 )
 
-print("Hacked!")
+print("Done")
