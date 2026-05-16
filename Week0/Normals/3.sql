@@ -1,0 +1,4 @@
+SELECT "0m", "100m", "200m"
+FROM normals
+WHERE latitude = 48.5
+AND longitude = 2.0;
