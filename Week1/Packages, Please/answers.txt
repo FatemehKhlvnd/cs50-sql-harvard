@@ -1,0 +1,14 @@
+The Lost Letter:
+Location: 2 Finnegan Street
+Type: Residential
+Contents: Congratulatory letter
+
+The Devious Delivery:
+Location: [final location]
+Type: [type]
+Contents: [item]
+
+The Forgotten Gift:
+Location: 728 Maple Place
+Type: Residential
+Contents: Birthday gift
