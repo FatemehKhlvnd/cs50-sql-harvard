@@ -1,0 +1,37 @@
+# 36 Views - CS50 SQL Problem Set
+
+This project analyzes 72 woodblock prints from Hokusai and Hiroshige using SQL queries.
+
+## Dataset
+The dataset contains metadata about prints including:
+- Titles (English & Japanese)
+- Artist
+- Brightness
+- Contrast
+- Entropy
+- Average color
+
+## Skills practiced
+- SELECT queries
+- Filtering with WHERE + LIKE
+- Aggregation (COUNT, AVG, MAX)
+- Sorting (ORDER BY)
+- Limiting results (LIMIT)
+- Column aliasing (AS)
+- Rounding values (ROUND)
+
+## Key Insights
+- Hokusai and Hiroshige differ in visual brightness and contrast
+- Statistical image properties can reflect artistic style
+
+## Files
+- 1.sql → Titles side-by-side
+- 2.sql → River-themed prints (Hokusai)
+- 3.sql → Fuji mentions count
+- 4.sql → Eastern Capital references
+- 5.sql → Maximum contrast
+- 6.sql → Average entropy
+- 7.sql → Brightest Hiroshige prints
+- 8.sql → Least contrast Hokusai prints
+- 9.sql → Brightest print overall
+- 10.sql → Custom analysis
